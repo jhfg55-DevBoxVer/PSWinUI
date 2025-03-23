@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows10.0.26100.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+      </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.7.250310001" />
+  </ItemGroup>
+
+	<!-- 复制 psd1 与 psm1 文件到输出目录。PreserveNewest 表示只有在源文件更新时才会复制。确保 PSWinUI.psd1 和 PSWinUI.psm1 文件位于项目根目录；如果在其他目录，请调整路径。 -->
+	<ItemGroup>
+		<None Update="PSWinUI.psd1">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="PSWinUI.psm1">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+	
+</Project>

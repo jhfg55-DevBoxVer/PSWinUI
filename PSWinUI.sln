@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSWinUI.Core", "PSWinUI\PSWinUI.Core.csproj", "{E188B235-8CF4-4B57-824D-962F3A9AFA24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSWinUI.Core", "PSWinUI.Core\PSWinUI.Core.csproj", "{5D27EA5A-1C34-9A61-E167-191F0A2FFBE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E188B235-8CF4-4B57-824D-962F3A9AFA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E188B235-8CF4-4B57-824D-962F3A9AFA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E188B235-8CF4-4B57-824D-962F3A9AFA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E188B235-8CF4-4B57-824D-962F3A9AFA24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D27EA5A-1C34-9A61-E167-191F0A2FFBE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D27EA5A-1C34-9A61-E167-191F0A2FFBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D27EA5A-1C34-9A61-E167-191F0A2FFBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D27EA5A-1C34-9A61-E167-191F0A2FFBE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,4 +10,5 @@
     
     # DLL 文件，确保在模块加载时一并加载
     RequiredAssemblies = @('PSWinUI.Core.dll')
+    RootModule = 'PSWinUI.psm1'
 }

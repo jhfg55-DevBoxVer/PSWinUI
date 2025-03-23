@@ -1,0 +1,15 @@
+使用说明
+
+1. 准备环境 
+   - 使用 Visual Studio 编译 C# 项目，生成 `PSWinUI.Core.dll`。  
+   - 将编译生成的 DLL 与 `PSWinUI.psm1`、`PSWinUI.psd1` 同放在一个目录中。
+
+2. 加载模块与运行 
+   在 PowerShell（必须以 STA 模式运行，如用 PowerShell.exe -STA）中执行以下命令：
+
+   powershell
+   Import-Module <模块所在路径>\PSWinUI.psd1
+   New-PSWinUIWindow -Title "My WinUI 3 App" -Message "Welcome to PSWinUI!"
+   
+
+   这将调用底层 C# 方法，在 WinUI 3 环境下启动一个窗口，并显示居中文字。
