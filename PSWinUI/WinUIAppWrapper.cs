@@ -1,7 +1,7 @@
 ﻿using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace PSWinUI.Core
+namespace PSWinUI
 {
     public static class WinUIAppWrapper
     {
@@ -33,24 +33,6 @@ namespace PSWinUI.Core
                 window.Content = grid;
                 window.Activate();
             });
-        }
-    }
-    public static class UIThreadRunner
-    {
-        private static Thread? _uiThread;
-        public static void StartDispatcher()
-        {
-            if (_uiThread != null && _uiThread.IsAlive)
-                return;
-
-            _uiThread = new Thread(() =>
-            {
-                // 使用 WinUI 3 的 Application.Start 启动一个空的消息循环
-                Application.Start(_ => { });
-            });
-            _uiThread.SetApartmentState(ApartmentState.STA);
-            _uiThread.IsBackground = true;
-            _uiThread.Start();
         }
     }
 }

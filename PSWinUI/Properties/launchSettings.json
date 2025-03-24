@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PSWinUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PSWinUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
