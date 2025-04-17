@@ -1,1 +1,1 @@
-To read the detailed document, please visit the doc.one file
+To read the detailed document, please open the.onetoc2 file after downloading the docs folder
